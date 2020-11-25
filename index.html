@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/litera/bootstrap.min.css"
+        integrity="sha384-Gr51humlTz50RfCwdBYgT+XvbSZqkm8Loa5nWlNrvUqCinoe6C6WUZKHS2WIRx5o" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Regular Expression</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+        <a class="navbar-brand text-light" href="#">Regular Expression</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>Regular Expression Validation</h1>
+        <form action="" class="mt-4" id="formid">
+            <select name="reg" id="reg" class="form-control">
+                <option value="">Select One</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="post">Post Code</option>
+            </select>
+            <button class="mt-3 btn btn-success" id="submitbtn">Submit</button>
+        </form>
+
+    </div>
+
+    <div class="container mt-5">
+        <h1 class="mb-4">Result : </h1>
+
+        <p style="font-size: 23px;" id="result"><span class="text-danger font-weight-bold" id="expression">expression</span> is a <span id="valid"><b>Valid</b></span> expression</p>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
